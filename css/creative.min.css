@@ -51,7 +51,8 @@ h6 {
 }
 
 section {
-    padding: 8rem 0
+    padding: 8rem 0;
+  
 }
 
 .section-heading {
@@ -345,6 +346,7 @@ header.masthead p {
         'Helvetica Neue',
         Arial,
         sans-serif;
+   
 
 }
 
@@ -355,4 +357,5 @@ br {
 #box-shadow {
     text-shadow: 2px 2px black;
 }
+
 
