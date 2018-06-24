@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif
+    /* font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif */
+    font-family:'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -231,7 +232,19 @@ header.masthead p {
     margin: 0 auto;
 }
 
+#portfolio {
+    background-color: #9c9da3;
+    border-top:5px solid rgba(255, 255, 255, .7);
 
+    
+}
+
+.panel-footer {
+    background-color: #f05f40;
+    color: rgba(255, 255, 255, .7);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    border-top:5px solid rgba(255, 255, 255, .7);
+}
 
 .portfolio-box .portfolio-box-caption {
     position: absolute;
@@ -246,6 +259,7 @@ header.masthead p {
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s
+    
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -254,12 +268,14 @@ header.masthead p {
     width: 100%;
     transform: translateY(-50%);
     text-align: center
+    
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+    
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -342,8 +358,8 @@ header.masthead p {
 }
 
 .card-body {
-    border: 2px solid #f05f40;
-    box-shadow: 10px 10px #f05f40;
+    border: 10px solid #f05f40;
+    /* box-shadow: 10px 10px 10px 10px #f05f40; */
         font-family: 'Open Sans',
         'Helvetica Neue',
         Arial,
@@ -358,6 +374,9 @@ br {
 
 #box-shadow {
     text-shadow: 2px 2px black;
+}
+.mb-5 {
+    font-size: 20px;
 }
 
 
