@@ -388,4 +388,12 @@ br {
     font-size: 20px;
 }
 
+.panel-footer a {
+    color: white;
+}
+
+ a:hover {
+    color: white
+}
+
 
